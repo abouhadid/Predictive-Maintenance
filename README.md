@@ -12,6 +12,7 @@ This problem is further divided into two closely related questions, each address
 ----------------------------------------------------
 
 **DATA**:
+
 The dataset comprises multiple multivariate time series, with each time series representing a distinct engine. Essentially, the data can be viewed as originating from a fleet of engines of the same type.
 At the onset of each time series, the engine operates under normal conditions but develops a fault at some point during the series. In the training set, the fault intensifies over time until system failure. Conversely, in the test set, the time series concludes some time before system failure.
 The training set encompasses operational data from 100 different engines, featuring varying run lengths ranging from a minimum of 128 cycles to a maximum of 356 cycles. Similarly, the testing set includes operational data from a distinct set of 100 engines, entirely different from those in the training dataset.
