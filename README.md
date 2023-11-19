@@ -8,7 +8,7 @@ In this project, I construct an LSTM network to forecast the remaining useful li
 This problem is further divided into two closely related questions, each addressed by distinct machine learning models:
 1. **Binary classification**: Determining whether the engine is likely to fail within the next N cycles.
 2. **Regression models**: Estimating the remaining number of cycles an in-service engine will endure before failure.
-3. 
+
 ----------------------------------------------------
 
 **DATA**:
